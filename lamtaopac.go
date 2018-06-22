@@ -24,7 +24,7 @@ func main() {
 			"DIRECT",
 		"proxies",
 	)
-	flagOutput := flag.String("output", "gfwpac", "output file")
+	flagOutput := flag.String("output", "lamtaopac", "output file")
 	flag.Parse()
 
 	b, err := ioutil.ReadFile(*flagTemplate)
